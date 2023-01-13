@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.bg-image{
+    background-image: url('/img/bg_image.jpeg');
+    background-size: cover;
+    min-height: 86vh;
+    position: relative;
+}
+
+.text-hero{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #1E3932;
+}
+
+.first_div{
+    background-size: cover;
+    min-height: 52vh;
+    position: relative;
+    background-color: #D4E9E2;
+}
+
+.second_div{
+    background-image: url('/img/first_pic.jpeg');
+    background-size: cover;
+    min-height: 52vh;
+    position: relative;
+   
+}
+
+.third_div{
+    background-image: url('/img/second_pic.jpg');
+    background-size: cover;
+    min-height: 52vh;
+    position: relative;
+}
+
+.fourth_div{
+    background-size: cover;
+    min-height: 52vh;
+    position: relative;
+    background-color: #006241;
+}
+
+.new_image{
+    background-image: url('/img/new_pic.jpeg');
+    background-size: cover;
+    min-height: 58vh;
+    position: relative;
+}
+
+.new_image_text{
+    background-size: cover;
+    position: relative;
+    background-color: #1E3932;
+}
+
+.new_image_next{
+    background-image: url('/img/new_pic_second.jpeg');
+    background-size: cover;
+    min-height: 58vh;
+    position: relative;
+}
+
+.new_image_third{
+    background-image: url('/img/new_image_third.jpeg');
+    background-size: cover;
+    min-height: 58vh;
+    position: relative;
+}
+
+.third_image_style{
+    background-size: cover;
+    position: relative;
+    background-color: #D4E9E2;
+}
+
+.new_image_fourth{
+    background-image: url('/img/sixth_pic.jpg');
+    background-size: cover;
+    min-height: 58vh;
+    position: relative;
+}
+.fourth_style{
+    background-size: cover;
+    position: relative;
+    background-color: #D4E9E2;
+}
+
+.last_div{
+    background-size: cover;
+    position: relative;
+    min-height: 45vh;
+    background-color: #FAF6EE;
+}
+
+.last_div_image{
+    background-image: url('/img/seventh_pic.jpeg');
+    background-size: cover;
+    min-height: 45vh;
+    position: relative;
+}
+
+.accordion-header{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+  
+  .accordion-content.active {
+    display: block; /* show active content */
+  }
+
+  .social-media-logo{
+    width: 2rem;
+    
+  }
+  
+  @media (max-width: 768px) { /* only show accordion on small screens */
+    .accordion-content {
+      display: none;
+    }
+    .accordion-content.active {
+      display: block;
+    }
+
+    .about_us_lg {
+        display: none;
+    }
+
+  }
+
+  @media (min-width: 768px){
+    .accordion-header{
+        display: none;
+    }
+    
+  }
+
+  @media(max-width: 768px){
+    .bg-image{
+        min-height: 80vh;
+     
+    }
+
+    .first_div{
+        min-height: 36vh;
+    }
+
+    .second_div{
+        min-height: 36vh;
+    }
+
+    .third_div{
+        min-height: 36vh;
+    }
+    
+    .fourth_div{
+        min-height: 36vh;
+    }
+
+    .new_image{
+      
+        min-height: 30vh;
+
+    }
+
+    .new_image_next{
+   
+        min-height: 30vh;
+
+    }
+
+    .new_image_third{
+       
+        min-height: 30vh;
+    
+    }
+
+    .new_image_fourth{
+        
+        min-height: 30vh;
+      
+    }
+    
+    .last_div{
+       
+        min-height: 45vh;
+        
+    }
+    
+
+    .last_div_image{
+       
+        min-height: 30vh;
+      
+    }
+  }
+
+  @media (max-width: 1200px) and (min-width: 900px){
+    .bg-image{
+        min-height: 20vh;
+     
+    }
+
+    .first_div{
+        min-height: 17vh;
+    }
+
+    .second_div{
+        min-height: 17vh;
+    }
+
+    .third_div{
+        min-height: 17vh;
+    }
+    
+    .fourth_div{
+        min-height: 17vh;
+    }
+
+    .new_image{
+      
+        min-height: 17vh;
+
+    }
+
+    .new_image_next{
+   
+        min-height: 18.2vh;
+
+    }
+
+    .new_image_third{
+       
+        min-height: 17vh;
+    
+    }
+
+    .new_image_fourth{
+        
+        min-height: 17vh;
+      
+    }
+    
+    .last_div{
+       
+        min-height: 17vh;
+        
+    }
+    
+
+    .last_div_image{
+       
+        min-height: 17vh;
+      
+    }
+  }
