@@ -4,7 +4,7 @@
 }
 
 .bg-image{
-    background-image: url('/img/bg_image.jpeg');
+    background-image: url('img/bg_image.jpeg');
     background-size: cover;
     min-height: 86vh;
     position: relative;
@@ -24,7 +24,7 @@
 }
 
 .second_div{
-    background-image: url('/img/first_pic.jpeg');
+    background-image: url('img/first_pic.jpeg');
     background-size: cover;
     min-height: 52vh;
     position: relative;
@@ -32,7 +32,7 @@
 }
 
 .third_div{
-    background-image: url('/img/second_pic.jpg');
+    background-image: url('img/second_pic.jpg');
     background-size: cover;
     min-height: 52vh;
     position: relative;
@@ -46,7 +46,7 @@
 }
 
 .new_image{
-    background-image: url('/img/new_pic.jpeg');
+    background-image: url('img/new_pic.jpeg');
     background-size: cover;
     min-height: 58vh;
     position: relative;
@@ -59,14 +59,14 @@
 }
 
 .new_image_next{
-    background-image: url('/img/new_pic_second.jpeg');
+    background-image: url('img/new_pic_second.jpeg');
     background-size: cover;
     min-height: 58vh;
     position: relative;
 }
 
 .new_image_third{
-    background-image: url('/img/new_image_third.jpeg');
+    background-image: url('img/new_image_third.jpeg');
     background-size: cover;
     min-height: 58vh;
     position: relative;
@@ -79,7 +79,7 @@
 }
 
 .new_image_fourth{
-    background-image: url('/img/sixth_pic.jpg');
+    background-image: url('img/sixth_pic.jpg');
     background-size: cover;
     min-height: 58vh;
     position: relative;
@@ -98,7 +98,7 @@
 }
 
 .last_div_image{
-    background-image: url('/img/seventh_pic.jpeg');
+    background-image: url('img/seventh_pic.jpeg');
     background-size: cover;
     min-height: 45vh;
     position: relative;
